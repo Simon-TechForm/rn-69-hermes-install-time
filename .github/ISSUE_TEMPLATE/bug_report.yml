@@ -126,7 +126,7 @@ body:
     attributes:
       label: Device(s)
       description: What device(s) are you able to reproduce this on?
-      placeholder: iPhone 14 Pro simulator (iOS 12.4), Samsung Galaxy S10 (Android 11)
+      placeholder: iPhone 14 Pro (12.4), Samsung Galaxy S10 (Android 11)
     validations:
       required: true
 
