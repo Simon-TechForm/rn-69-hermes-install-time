@@ -84,27 +84,27 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: expo
-    attributes:
-      label: Are you using Expo?
-      options:
-        - Yes
-        - No
-    validations:
-      required: true
+  # - type: dropdown
+  #   id: expo
+  #   attributes:
+  #     label: Are you using Expo?
+  #     options:
+  #       - Yes
+  #       - No
+  #   validations:
+  #     required: true
 
-  - type: input
-    id: device
-    attributes:
-      label: Device(s)
-      description: What device(s) are you able to reproduce this on?
-      placeholder: iPhone 14 Pro simulator (iOS 12.4), Samsung Galaxy S10 (Android 11)
-    validations:
-      required: true
+  # - type: input
+  #   id: device
+  #   attributes:
+  #     label: Device(s)
+  #     description: What device(s) are you able to reproduce this on?
+  #     placeholder: iPhone 14 Pro simulator (iOS 12.4), Samsung Galaxy S10 (Android 11)
+  #   validations:
+  #     required: true
 
-  - type: textarea
-    id: additional
-    attributes:
-      label: Additional information
-      description: Anything else you want us to know about the bug?
+  # - type: textarea
+  #   id: additional
+  #   attributes:
+  #     label: Additional information
+  #     description: Anything else you want us to know about the bug?
