@@ -90,8 +90,6 @@ body:
     id: expo
     attributes:
       label: Are you using Expo?
-      description: Select whether or not you are using expo
-      multiple: false
       options:
         - Hello
         - not hello
