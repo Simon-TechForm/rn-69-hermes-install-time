@@ -24,6 +24,7 @@ body:
         [Minimum amount of code](https://stackoverflow.com/help/minimal-reproducible-example) to reproduce the bug.
         Please spend the time needed to trim down your code as much as possible and make sure the code you provide runs "as is",
         as failing to do so will make reproducing every bug very time consuming for the maintainers.
+        **This will be automatically formatted into code, so no need for backticks.**
     validations:
       required: true
 
