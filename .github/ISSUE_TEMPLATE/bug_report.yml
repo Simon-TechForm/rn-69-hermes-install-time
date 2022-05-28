@@ -93,8 +93,8 @@ body:
       description: Select whether or not you are using expo
       multiple: false
       options:
-        - Yes
-        - No
+        - Hello
+        - not hello
     validations:
       required: true
 
