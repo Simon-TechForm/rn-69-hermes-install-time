@@ -19,6 +19,7 @@ body:
     id: reproducible-code
     attributes:
       label: Reproducible sample code
+      render: TSX
       description: |
         [Minimum amount of code](https://stackoverflow.com/help/minimal-reproducible-example) to reproduce the bug.
         Please spend the time needed to trim down your code as much as possible and make sure the code you provide runs "as is",
@@ -84,15 +85,15 @@ body:
     validations:
       required: true
 
-  # - type: dropdown
-  #   id: expo
-  #   attributes:
-  #     label: Are you using Expo?
-  #     options:
-  #       - Yes
-  #       - No
-  #   validations:
-  #     required: true
+  - type: dropdown
+    id: expo
+    attributes:
+      label: Are you using Expo?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
 
   # - type: input
   #   id: device
